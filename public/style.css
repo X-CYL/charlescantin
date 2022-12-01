@@ -87,4 +87,18 @@ html, body {
   font-family: "Nova Mono", monospace;
   font-size: 3rem;
   letter-spacing: 0.4rem;
+}
+@media (max-width: 540px) {
+  .charlesCantinLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 300px;
+    border-top: 8px #dadacc solid;
+    border-bottom: 10px #dadacc solid;
+    font-family: "Nova Mono", monospace;
+    font-size: 1.6em;
+    letter-spacing: 0.4rem;
+  }
 }/*# sourceMappingURL=style.css.map */

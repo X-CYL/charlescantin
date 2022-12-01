@@ -1,0 +1,5 @@
+this is a new version of the "Charles Cantin" photo site after 
+i have chrashed the first version with the "npm run eject" command on
+the terminal.
+i copy/paste all the JSX and sass components on this version from the old
+version chrashed
