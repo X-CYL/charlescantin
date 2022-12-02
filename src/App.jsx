@@ -1,14 +1,14 @@
 import React from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import CharlesCantinHome from "./components/pages/CharlesCantinHome";
+import CharlesCantinGallery from './components/pages/CharlesCantinGallery'
 
 
 function App() {
   return (
     <div>
       <Header />
-        <CharlesCantinHome />
+        <CharlesCantinGallery />
       <Footer />
     </div>
   );

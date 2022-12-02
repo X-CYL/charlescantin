@@ -1,13 +1,10 @@
 import React from 'react';
-import Camera from '../micro/Camera'
+import CharlesCantinLogo from '../layouts/CharlesCantinLogo';
 
 const CharlesCantinHome = () => {
     return (
-        <div className = 'charlesCantinSignature'>
-            <Camera />
-            <div className='charlesCantinLogo'>
-                <p>Charles Cantin</p> 
-            </div>
+        <div className = 'pageFormat'>
+            <CharlesCantinLogo />
         </div>
     );
 };

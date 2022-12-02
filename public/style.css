@@ -66,7 +66,7 @@ html, body {
   border-radius: 5px;
 }
 
-.charlesCantinSignature {
+.pageFormat {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,7 +120,36 @@ html, body {
   }
 }
 
-@keyframes moveInFromLeft {
+.smallCharlesCantinLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -315px;
+  height: 50px;
+  width: 400px;
+  border-top: 4px #dadacc solid;
+  border-bottom: 4px #dadacc solid;
+  font-family: "Nova Mono", monospace;
+  font-size: 1.4em;
+  letter-spacing: 0.4rem;
+}
+@media (max-width: 540px) {
+  .smallCharlesCantinLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -310px;
+    height: 40px;
+    width: 300px;
+    border-top: 4px #dadacc solid;
+    border-bottom: 4px #dadacc solid;
+    font-family: "Nova Mono", monospace;
+    font-size: 1.4em;
+    letter-spacing: 0.4rem;
+  }
+}
+
+@keyframes moveInFromRight {
   0% {
     opacity: 0;
     transform: translateX(-200px);
@@ -141,7 +170,7 @@ html, body {
   width: 100px;
   margin-top: -245px;
   margin-left: 2px;
-  animation-name: moveInFromLeft;
+  animation-name: moveInFromRight;
   animation-duration: 7s;
 }
 @media (max-width: 540px) {
@@ -154,4 +183,16 @@ html, body {
     height: 40px;
     width: 40px;
   }
+}
+
+.cameraLogo {
+  background-color: #455969;
+  position: absolute;
+  text-align: center;
+  width: 70px;
+  margin-top: -70px;
+}
+.cameraLogo img {
+  height: 40px;
+  width: 40px;
 }/*# sourceMappingURL=style.css.map */
