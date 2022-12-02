@@ -93,10 +93,10 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 250px;
+  height: 200px;
   width: 500px;
-  border-top: 10px #dadacc solid;
-  border-bottom: 10px #dadacc solid;
+  border-top: 8px #dadacc solid;
+  border-bottom: 8px #dadacc solid;
   font-family: "Nova Mono", monospace;
   font-size: 3rem;
   letter-spacing: 0.4rem;
@@ -108,14 +108,50 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px;
+    height: 130px;
     width: 300px;
-    border-top: 8px #dadacc solid;
-    border-bottom: 10px #dadacc solid;
+    border-top: 6px #dadacc solid;
+    border-bottom: 6px #dadacc solid;
     font-family: "Nova Mono", monospace;
-    font-size: 1.6em;
+    font-size: 1.4em;
     letter-spacing: 0.4rem;
     animation-name: moveInFromLeft;
     animation-duration: 3s;
+  }
+}
+
+@keyframes moveInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  80% {
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+.camera {
+  background-color: #455969;
+  position: absolute;
+  text-align: center;
+  height: 70px;
+  width: 100px;
+  margin-top: -245px;
+  margin-left: 2px;
+  animation-name: moveInFromLeft;
+  animation-duration: 7s;
+}
+@media (max-width: 540px) {
+  .camera {
+    height: 50px;
+    width: 60px;
+    margin-top: -160px;
+  }
+  .camera img {
+    height: 40px;
+    width: 40px;
   }
 }/*# sourceMappingURL=style.css.map */

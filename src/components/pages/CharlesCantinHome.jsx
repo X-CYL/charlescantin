@@ -1,8 +1,10 @@
 import React from 'react';
+import Camera from '../micro/Camera'
 
-const CharlesCantinSignature = () => {
+const CharlesCantinHome = () => {
     return (
         <div className = 'charlesCantinSignature'>
+            <Camera />
             <div className='charlesCantinLogo'>
                 <p>Charles Cantin</p> 
             </div>
@@ -10,4 +12,4 @@ const CharlesCantinSignature = () => {
     );
 };
 
-export default CharlesCantinSignature;
+export default CharlesCantinHome;

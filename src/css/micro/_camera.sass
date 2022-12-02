@@ -1,0 +1,27 @@
+@keyframes moveInFromLeft 
+        0%
+            opacity: 0
+            transform: translateX(-200px)
+        80%
+            transform: translateX(20px)
+        100%
+            opacity: 1
+            transform: translate(0)
+.camera
+    background-color: $primary-color
+    position: absolute
+    text-align: center
+    height: 70px
+    width: 100px
+    margin-top: -245px
+    margin-left: 2px
+    animation-name: moveInFromLeft
+    animation-duration: 7s
+
+    @media (max-width: $small-screen)
+        height:50px
+        width: 60px
+        margin-top: -160px
+        img
+            height: 40px
+            width: 40px
