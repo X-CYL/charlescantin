@@ -1,3 +1,13 @@
+@keyframes moveInFromLeft 
+        0%
+            opacity: 0
+            transform: translateX(-200px)
+        80%
+            transform: translateX(20px)
+        100%
+            opacity: 1
+            transform: translate(0)
+
 .charlesCantinLogo
     @include flex-text-center
     height:250px
@@ -7,8 +17,10 @@
     font-family: $mona-novo
     font-size: $extra-large-font-size
     letter-spacing: $name-letter-spacing
+    animation-name: moveInFromLeft
+    animation-duration: 3s
     
-    @media (max-width: 540px)
+    @media (max-width: $small-screen)
         @include flex-text-center
         height:150px
         width: 300px
@@ -17,6 +29,8 @@
         font-family: $mona-novo
         font-size: 1.6em
         letter-spacing: $name-letter-spacing
+        animation-name: moveInFromLeft
+        animation-duration: 3s
 
     
     
