@@ -1,7 +1,7 @@
 import React from "react";
-import logofacebook from "../assets/pics/facebook-logo.png";
-import logoinstagram from "../assets/pics/instagram-logo.png";
-import DefaultButton from "./micro/DefaultButton";
+import logofacebook from "../../assets/pics/facebook-logo.png";
+import logoinstagram from "../../assets/pics/instagram-logo.png";
+import DefaultButton from "../micro/DefaultButton";
 
 export default function Header() {
   return (
