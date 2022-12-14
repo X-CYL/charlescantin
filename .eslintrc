@@ -1,0 +1,11 @@
+{
+  "plugins": ["react"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module",
+    "ecmaVersion": 2020
+  },
+  "rules":{"no-unused-expressions":"warn"}
+}

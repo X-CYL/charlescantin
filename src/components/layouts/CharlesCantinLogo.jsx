@@ -1,5 +1,5 @@
 import React from "react";
-import Camera from "../components/micro/Camera";
+import Camera from "../../components/micro/Camera";
 
 const CharlesCantinLogo = () => {
   return (
