@@ -1,9 +1,14 @@
 .titleBar-title
     @include flex-text-center
-    margin-top: -210px
+    margin: -200px auto
     height: 15px
     width: 75%
     border-top: 2px $secondary-color solid
+    @media (max-width:$small-screen)
+        margin: -160px auto
+        height: 15px
+        width: 75%
+        border-top: 2px $secondary-color solid
     p
         background-color: $primary-color
         font-family: $mona-novo
@@ -13,6 +18,7 @@
         @media (max-width: $small-screen)
             background-color: $primary-color
             font-family: $mona-novo
+            margin: 16px auto
             font-size: 1.4em
             width: 150px
             text-align: center
