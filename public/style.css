@@ -142,11 +142,11 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
-  background-color: #455969;
+  margin-top: 10px;
+  background-color: green;
   height: 50px;
   width: 400px;
-  margin: 40px auto;
+  margin: -44px auto;
   width: 400px;
   border-top: 4px #dadacc solid;
   border-bottom: 4px #dadacc solid;
@@ -162,6 +162,7 @@ li {
     margin-top: 50px;
     height: 40px;
     width: 300px;
+    margin: -14px auto;
     border-top: 4px #dadacc solid;
     border-bottom: 4px #dadacc solid;
     font-family: "Nova Mono", monospace;
@@ -234,19 +235,19 @@ li {
 }
 
 .container-flex-row {
-  margin-top: 8%;
+  margin-top: -20%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  width: 100%;
 }
 
 .titleBar-title {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
-  margin: 40px auto;
+  margin-top: -210px;
   height: 15px;
   width: 75%;
   border-top: 2px #dadacc solid;

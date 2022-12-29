@@ -9,7 +9,7 @@ function App() {
   return (
     <div className= 'pageFormat'>
         <Header />
-        <CharlesCantinHome />
+        <CharlesCantinGallery />
         <Footer />
     </div>
   );
