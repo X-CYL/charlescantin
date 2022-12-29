@@ -3,7 +3,7 @@ import CharlesCantinLogo from "../../components/layouts/CharlesCantinLogo";
 
 const CharlesCantinHome = () => {
   return (
-    <div className="pageFormat bg">
+    <div className="pageFormat">
       <CharlesCantinLogo />
     </div>
   );
