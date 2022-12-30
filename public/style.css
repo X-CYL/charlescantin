@@ -225,6 +225,7 @@ li {
   border-style: solid;
   height: 120px;
   width: 200px;
+  margin-top: 40%;
 }
 .displayGaleryFormat figure, .displayGaleryFormat img {
   height: 100%;
