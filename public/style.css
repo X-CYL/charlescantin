@@ -83,12 +83,12 @@ li {
 
 .pageFormat {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   background-color: #455969;
   color: #dadacc;
   min-height: calc(95vh - 140px);
-  width: auto;
+  width: 100%;
   margin: auto;
 }
 
@@ -236,7 +236,7 @@ li {
 }
 
 .container-flex-row {
-  margin-top: -20%;
+  margin-top: 18%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -248,7 +248,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: -200px auto;
+  margin: -12px auto;
   height: 15px;
   width: 75%;
   border-top: 2px #dadacc solid;
