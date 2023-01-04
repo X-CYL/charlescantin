@@ -3,8 +3,17 @@
     flex-direction: column
     flex-wrap: wrap
     background-color: $primary-color
+    //background-image: url('./pictures/utils/fjiord-screen.jpeg')
     color: $secondary-color
     min-height: calc(95vh - 140px)
     width: 100%
     margin: auto
-    
+    @media (max-width: 950px)
+        display: flex
+        flex-direction: column
+        flex-wrap: wrap
+        background-color: $primary-color
+        color: $secondary-color
+        min-height: calc(95vh - 140px)
+        width: auto
+        margin: auto

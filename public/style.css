@@ -23,9 +23,9 @@ li {
   height: 90px;
   width: 95%;
   margin: auto;
-  border-bottom: solid 2px #dadacc;
+  border-bottom: solid 2px rgb(218, 218, 204);
   background-color: #455969;
-  color: #dadacc;
+  color: rgb(218, 218, 204);
 }
 
 .container-logo {
@@ -39,11 +39,11 @@ li {
 
 .footer {
   margin-top: 50px;
-  border-top: solid 2px #dadacc;
+  border-top: solid 2px rgb(218, 218, 204);
   height: 50px;
   width: 95%;
   font-size: 0.7em;
-  color: #dadacc;
+  color: rgb(218, 218, 204);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,7 +76,7 @@ li {
   margin-right: 8px;
   height: 30px;
   width: 120px;
-  color: #dadacc;
+  color: rgb(218, 218, 204);
   background-color: rgba(125, 145, 173, 0.5019607843);
   border-radius: 5px;
 }
@@ -86,10 +86,22 @@ li {
   flex-direction: column;
   flex-wrap: wrap;
   background-color: #455969;
-  color: #dadacc;
+  color: rgb(218, 218, 204);
   min-height: calc(95vh - 140px);
   width: 100%;
   margin: auto;
+}
+@media (max-width: 950px) {
+  .pageFormat {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #455969;
+    color: rgb(218, 218, 204);
+    min-height: calc(95vh - 140px);
+    width: auto;
+    margin: auto;
+  }
 }
 
 @keyframes moveInFromLeft {
@@ -113,8 +125,8 @@ li {
   width: 500px;
   margin: 0 auto;
   margin-top: 250px;
-  border-top: 8px #dadacc solid;
-  border-bottom: 8px #dadacc solid;
+  border-top: 8px rgb(218, 218, 204) solid;
+  border-bottom: 8px rgb(218, 218, 204) solid;
   font-family: "Nova Mono", monospace;
   font-size: 3rem;
   letter-spacing: 0.4rem;
@@ -130,8 +142,8 @@ li {
     width: 300px;
     margin: 0 auto;
     margin-top: 60%;
-    border-top: 6px #dadacc solid;
-    border-bottom: 6px #dadacc solid;
+    border-top: 6px rgb(218, 218, 204) solid;
+    border-bottom: 6px rgb(218, 218, 204) solid;
     font-family: "Nova Mono", monospace;
     font-size: 1.4em;
     letter-spacing: 0.4rem;
@@ -150,8 +162,8 @@ li {
   width: 400px;
   margin: 40px auto;
   width: 400px;
-  border-top: 4px #dadacc solid;
-  border-bottom: 4px #dadacc solid;
+  border-top: 4px rgb(218, 218, 204) solid;
+  border-bottom: 4px rgb(218, 218, 204) solid;
   font-family: "Nova Mono", monospace;
   font-size: 1.4em;
   letter-spacing: 0.4rem;
@@ -165,8 +177,8 @@ li {
     height: 40px;
     width: 300px;
     margin: 40px auto;
-    border-top: 4px #dadacc solid;
-    border-bottom: 4px #dadacc solid;
+    border-top: 4px rgb(218, 218, 204) solid;
+    border-bottom: 4px rgb(218, 218, 204) solid;
     font-family: "Nova Mono", monospace;
     font-size: 1.4em;
     letter-spacing: 0.4rem;
@@ -226,7 +238,7 @@ li {
   border-style: solid;
   height: 120px;
   width: 200px;
-  margin-top: 40%;
+  margin-top: 1%;
 }
 .displayGaleryFormat figure, .displayGaleryFormat img {
   height: 100%;
@@ -263,14 +275,14 @@ li {
   margin: -10px auto;
   height: 15px;
   width: 75%;
-  border-top: 2px #dadacc solid;
+  border-top: 2px rgb(218, 218, 204) solid;
 }
 @media (max-width: 540px) {
   .titleBar-title {
     margin: 1px auto;
     height: 15px;
     width: 75%;
-    border-top: 2px #dadacc solid;
+    border-top: 2px rgb(218, 218, 204) solid;
   }
 }
 .titleBar-title p {
@@ -289,4 +301,80 @@ li {
     width: 150px;
     text-align: center;
   }
+}
+
+.mainContainertarifs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.containertarifs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+  background-color: #7D91AD;
+  border: solid 2px rgb(218, 218, 204);
+  width: 80%;
+  height: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.containertarifs p {
+  font-size: 6rem;
+  color: rgba(218, 218, 204, 0.5);
+  font-style: italic;
+}
+@media (max-width: 950px) {
+  .containertarifs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    background-color: #7D91AD;
+    border: solid 2px rgb(218, 218, 204);
+    width: 60%;
+    height: 800px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+.displayGalleryTarifs {
+  margin-top: -40px;
+}
+
+.container-col {
+  background-color: #7D91AD;
+  height: 180px;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container-col span {
+  font-family: "Nova Mono", monospace;
+  font-size: 1.8rem;
+  color: rgb(218, 218, 204);
+}
+
+.priceGaleryTarif {
+  background-color: #455969;
+  border-style: solid;
+  height: 180px;
+  width: 120px;
+  margin-top: 1%;
+}
+.priceGaleryTarif img {
+  height: 100%;
 }/*# sourceMappingURL=style.css.map */

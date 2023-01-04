@@ -9,7 +9,9 @@ const CharlesCantinGallery = () => {
     <>
       <div className="pageFormat">
           <SmallCharlesCantinLogo />
-          <TitleBar />
+          <TitleBar
+          title="Galerie"
+           />
           <div className="container-flex-row">
             <div>
               <DisplayGalery

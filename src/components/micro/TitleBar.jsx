@@ -1,9 +1,9 @@
 import React from 'react';
 
-const TitleBar = () => {
+const TitleBar = (props) => {
     return (
         <div className = "titleBar-title">
-            <p>Galerie</p>
+            <p>{ props.title }</p>
         </div>
     );
 };

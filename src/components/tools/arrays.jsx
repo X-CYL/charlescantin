@@ -151,7 +151,7 @@ export let cantinPictures = [
         price: 230
       },
       {
-        pictitle: "Falamme intense",
+        pictitle: "Flamme intense",
         picture: "./pictures/Bapteme/Flamme_intense.jpg",
         linkTo: "#",
         description: "Une femme allume un cierge au premier plan flou avec une bougie",
@@ -205,4 +205,51 @@ export let cantinPictures = [
 
 export let cantinMenu = [
   
+]
+
+/* le stockage concernant les tarifs */
+
+export let cantinPrices =[
+  {
+    pricesTitle:"JUSTE MOI",
+    descriptionPrice:"Scéance pour une personne en extérieur ou en studio",
+    Picture1Price: "/Pictures/Portrait/berbere-small.jpg",
+    Picture2Price: "/Pictures/Portrait/smoker-small.jpg",
+    pricePrice: 130 + "€"
+  },
+  {
+    pricesTitle:"POUR DEUX",
+    descriptionPrice:"Scéance pour deux personne en extérieur ou en studio",
+    Picture1Price: "/Pictures/Couple/studio-couple-small.jpg",
+    Picture2Price: "/Pictures/Couple/sunshine-couple-small.jpg",
+    pricePrice: 195 + "€"
+  },
+  {
+    pricesTitle:"FAMILLE",
+    descriptionPrice:"Pour la famille ou les amis jusqu'a 4 personnes en extérieur ou en studio. 30€ de supplément par personne hormis les enfants de moins de 2 ans",
+    Picture1Price:"/Pictures/Famille/3_dans_le_parc_small.jpg",
+    Picture2Price:"/Pictures/Famille/Face_a_la_mer_small.jpeg",
+    pricePrice: 220 + "€",
+  },
+  {
+    pricesTitle:"IL ETAIT UNE FOIS",
+    descriptionPrice:"Photo de grossesse, domicile, studio ou en extérieur",
+    Picture1Price:"/Pictures/Grossesse/grossesse_1_small.jpeg",
+    Picture2Price:"/Pictures/Grossesse/grossesse_2_small.jpeg",
+    pricePrice: 160 + "€"
+  },
+  {
+    pricesTitle:"MON BEBE",
+    descriptionPrice:"Photo d'enfants jusqu'a 3 ans (domicile)",
+    Picture1Price:"/Pictures/Bebe/bebe_1_small.jpg",
+    Picture2Price:"/Pictures/Bebe/enfant_1_small.jpg",
+    pricePrice: 100 + "€"
+  },
+  {
+    pricesTitle: "J IMMORTALISE L EVENEMENT",
+    descriptionPrice:"Prestation (mariage, baptème, etc...",
+    Picture1Price:"/Pictures/Mariage/mariage_1_small.jpeg",
+    Picture2Price:"/Pictures/Mariage/mariage_3_small.jpeg",
+    pricePrice: "Devis"
+  }
 ]
