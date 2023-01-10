@@ -23,7 +23,7 @@ const CharlesCantinTarifs = () => {
                 titre={item.title}
                 description={item.description}
                 price ={ formatedPrice }
-                className="containertarifs"
+                className="priceGaleryTarifs"
               />
             </>
           );

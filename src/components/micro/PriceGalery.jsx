@@ -3,8 +3,8 @@ import React from "react";
 const PriceGalery = (props) => {
   return (
     <div className="mainContainertarifs">
-      <div className={props.className}>
-        <div className="containerPictures">
+      <div>
+        <div>
           <div className={props.className}>
             <img src={props.src1} alt={props.alt1}></img>
           </div>
