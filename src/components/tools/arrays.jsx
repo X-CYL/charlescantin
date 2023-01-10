@@ -209,48 +209,59 @@ let cantinMenu = [
 
 /* le stockage concernant les tarifs */
 
-let cantinPrices =[
+export const cantinPrices =[
   {
-    pricesTitle:"JUSTE MOI",
-    descriptionPrice:"Scéance pour une personne en extérieur ou en studio",
-    Picture1Price: "/Pictures/Portrait/berbere-small.jpg",
-    Picture2Price: "/Pictures/Portrait/smoker-small.jpg",
-    pricePrice: 130 
+    title:"JUSTE MOI",
+    description:"Scéance pour une personne en extérieur ou en studio",
+    picture1: "/Pictures/Portrait/berbere-small.jpg",
+    picture2: "/Pictures/Portrait/smoker-small.jpg",
+    alt1: "portrait de femme berbere avec un voile",
+    alt2: "portrait d homme qui fume en studio",
+    price: 130 
   },
   {
-    pricesTitle:"POUR DEUX",
-    descriptionPrice:"Scéance pour deux personne en extérieur ou en studio",
-    Picture1Price: "/Pictures/Couple/studio-couple-small.jpg",
-    Picture2Price: "/Pictures/Couple/sunshine-couple-small.jpg",
-    pricePrice: 195 
+    title:"POUR DEUX",
+    description:"Scéance pour deux personne en extérieur ou en studio",
+    picture1: "/Pictures/Couple/studio-couple-small.jpg",
+    picture2: "/Pictures/Couple/sunshine-couple-small.jpg",
+    alt1: "Couple de noirs enlacés en studio",
+    alt2: "Couple en contrejour au soleil couchant",
+    price: 195 
   },
   {
-    pricesTitle:"FAMILLE",
-    descriptionPrice:"Pour la famille ou les amis jusqu'a 4 personnes en extérieur ou en studio. 30€ de supplément par personne hormis les enfants de moins de 2 ans",
-    Picture1Price:"/Pictures/Famille/3_dans_le_parc_small.jpg",
-    Picture2Price:"/Pictures/Famille/Face_a_la_mer_small.jpeg",
-    pricePrice: 220
+    title:"FAMILLE",
+    description:"Pour la famille ou les amis jusqu'a 4 personnes, extérieur studio.",
+    picture1:"/Pictures/Famille/3_dans_le_parc_small.jpg",
+    picture2:"/Pictures/Famille/Face_a_la_mer_small.jpeg",
+    alt1: "Parents et enfant sur les épaules dans le parc façon daltons",
+    alt2: "Famille de 4 personnes de dos face à la mer",
+    price: 220
   },
   {
-    pricesTitle:"IL ETAIT UNE FOIS",
-    descriptionPrice:"Photo de grossesse, domicile, studio ou en extérieur",
-    Picture1Price:"/Pictures/Grossesse/grossesse_1_small.jpeg",
-    Picture2Price:"/Pictures/Grossesse/grossesse_2_small.jpeg",
-    pricePrice: 160
+    title:"IL ETAIT UNE FOIS",
+    description:"Photo de grossesse, domicile, studio ou en extérieur",
+    picture1:"/Pictures/Grossesse/grossesse_1_small.jpeg",
+    picture2:"/Pictures/Grossesse/grossesse_2_small.jpeg",
+    alt1: "Femme enceinte dans un champ de blé du de 3/4",
+    alt2: "Femme noire enceinte dans un pré arboré vue de 3/4 avant",
+    price: 160
   },
   {
-    pricesTitle:"MON BEBE",
-    descriptionPrice:"Photo d'enfants jusqu'a 3 ans (domicile)",
-    Picture1Price:"/Pictures/Bebe/bebe_1_small.jpg",
-    Picture2Price:"/Pictures/Bebe/enfant_1_small.jpg",
-    pricePrice: 100
+    title:"MON BEBE",
+    description:"Photo d'enfants jusqu'a 3 ans (domicile)",
+    picture1:"/Pictures/Bebe/bebe_1_small.jpg",
+    picture2:"/Pictures/Bebe/enfant_1_small.jpg",
+    alt1: "Portrait de bébé dans son lit avec un bonnet à oreilles",
+    alt2: "Portrait de petite fille de dos assise dans un champ de fleurs regardant le soleil a travers les arbles",
+    price: 100
   },
   {
-    pricesTitle: "J IMMORTALISE L EVENEMENT",
-    descriptionPrice:"Prestation (mariage, baptème, etc...",
-    Picture1Price:"/Pictures/Mariage/mariage_1_small.jpeg",
-    Picture2Price:"/Pictures/Mariage/mariage_3_small.jpeg",
-    pricePrice: "Devis"
+    title: "J'IMMORTALISE L EVENEMENT",
+    description:"Prestation (mariage, baptème, etc...",
+    picture1:"/Pictures/Mariage/mariage_1_small.jpeg",
+    picture2:"/Pictures/Mariage/mariage_3_small.jpeg",
+    alt1: "Coupole de mariage au fond avec les tables dréssées sur les côtés",
+    alt2: "Le marié servant du champagne",
+    price: 0
   }
 ]
-export default cantinPrices

@@ -368,13 +368,14 @@ li {
   color: rgb(218, 218, 204);
 }
 
-.priceGaleryTarif {
-  background-color: #455969;
-  border-style: solid;
-  height: 180px;
-  width: 120px;
-  margin-top: 1%;
+.containerPictures {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 100px;
 }
-.priceGaleryTarif img {
-  height: 100%;
+.containerPictures div img {
+  height: 130px;
+  width: 120px;
 }/*# sourceMappingURL=style.css.map */

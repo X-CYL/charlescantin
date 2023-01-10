@@ -1,8 +1,76 @@
-.priceGaleryTarif
-    background-color: $primary-color
-    border-style: solid 
+
+.mainContainertarifs
+    @include flex-container-center   
+    
+.containertarifs
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+    margin-top: 70px
+    background-color: #7D91AD
+    border: solid 2px $secondary-color 
+    width: 80%
+    height: 200px
+    padding-left: 30px
+    padding-right: 30px
+    p
+        font-size: 6rem
+        color: $secondary-color-trans
+        font-style: italic
+    @media (max-width: 950px)
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        justify-content: space-around
+        align-items: center
+        margin-top: 70px
+        background-color:  #7D91AD
+        border: solid 2px $secondary-color 
+        width: 60%
+        height: 800px
+        padding-left: 30px
+        padding-right: 30px
+    
+
+.displayGalleryTarifs
+    margin-top: -40px
+    
+
+
+.container-col
+    background-color: #7D91AD
     height: 180px
-    width: 120px
-    margin-top: 1%
-    img
-        height: 100%
+    width: 350px
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+    text-align: center
+    span
+        font-family: $mona-novo
+        font-size: 1.8rem
+        color: $secondary-color
+.containerPictures
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    height: 100px
+    width: 100px
+    div img
+        height: 130px
+        width: 120px
+
+.priceGaleryTarif
+background-color: $primary-color
+border-style: solid 
+height: 180px
+width: 120px
+margin-top: 1%
+img
+    height: 100%
+
+
+

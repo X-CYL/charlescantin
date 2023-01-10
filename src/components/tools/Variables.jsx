@@ -1,1 +1,0 @@
-export let imgTest = "../../../public/pictures/Bapteme/Flamme_intense.jpg"
