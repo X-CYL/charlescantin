@@ -73,12 +73,23 @@ li {
 }
 
 .menuButton {
-  margin-right: 8px;
+  background-color: #455969;
+  color: rgb(218, 218, 204);
   height: 30px;
   width: 120px;
-  color: rgb(218, 218, 204);
-  background-color: rgba(125, 145, 173, 0.5019607843);
-  border-radius: 5px;
+  margin-right: 10px;
+  border: solid 1px rgb(218, 218, 204);
+  cursor: pointer;
+}
+
+.menuButton:hover {
+  background-color: rgb(218, 218, 204);
+  color: black;
+  border: solid 1px black;
+}
+
+.menuButton:active {
+  background-color: #455969;
 }
 
 .pageFormat {
@@ -321,14 +332,16 @@ li {
   background-color: #7D91AD;
   border: solid 2px rgb(218, 218, 204);
   width: 80%;
-  height: 200px;
+  height: 220px;
   padding-left: 30px;
   padding-right: 30px;
 }
 .containertarifs p {
-  font-size: 6rem;
+  font-size: 5rem;
   color: rgba(218, 218, 204, 0.5);
   font-style: italic;
+  width: 250px;
+  text-align: center;
 }
 @media (max-width: 950px) {
   .containertarifs {
@@ -347,16 +360,12 @@ li {
   }
 }
 
-.displayGalleryTarifs {
-  margin-top: -40px;
-}
-
 .container-col {
   background-color: #7D91AD;
-  height: 180px;
+  height: 220px;
   width: 350px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -368,14 +377,17 @@ li {
   color: rgb(218, 218, 204);
 }
 
-.containerPictures {
+.picturePrice {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 100px;
-  width: 100px;
+  width: 270Px;
+  justify-content: space-between;
+  align-items: center;
 }
-.containerPictures div img {
-  height: 130px;
-  width: 120px;
+.picturePrice img {
+  height: 160px;
+  width: 110px;
+  margin-left: 10px;
+  border: solid 2px rgb(218, 218, 204);
 }/*# sourceMappingURL=style.css.map */

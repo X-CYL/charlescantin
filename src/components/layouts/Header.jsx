@@ -1,7 +1,7 @@
 import React from "react";
 import logofacebook from "../../assets/pics/facebook-logo.png";
 import logoinstagram from "../../assets/pics/instagram-logo.png";
-import DefaultButton from "../micro/DefaultButton";
+import Dropdown from "./Dropdown";
 
 export default function Header() {
   return (
@@ -24,7 +24,7 @@ export default function Header() {
           </a>
         </div>
         <div>
-          <DefaultButton />
+          <Dropdown />
         </div>
       </div>
     </div>

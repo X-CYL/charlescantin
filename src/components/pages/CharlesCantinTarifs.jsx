@@ -12,7 +12,10 @@ const CharlesCantinTarifs = () => {
       <TitleBar title="Tarifs" />
       <div>
         {cantinPrices.map((item) => {
-          const formatedPrice = item.price + "€";
+          let formatedPrice = item.price + " €";
+          if (item.price === 0){
+            formatedPrice = "Sur devis"
+          }
           return (
             <>
               <PriceGalery
@@ -23,11 +26,11 @@ const CharlesCantinTarifs = () => {
                 titre={item.title}
                 description={item.description}
                 price ={ formatedPrice }
-                className="priceGaleryTarifs"
               />
             </>
           );
-        })}
+        }
+        )}
       </div>
     </div>
   );

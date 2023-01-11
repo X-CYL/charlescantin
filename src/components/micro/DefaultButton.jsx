@@ -1,9 +1,9 @@
 import React from 'react';
 
-const DefaultButton = ({label}) => {
+const DefaultButton = (props) => {
     return (
-        <div className="defaultButton">
-            <button type="button" className="menuButton">{label}</button>
+        <div>
+            <button name="button" type={ props.type } className={ props.className }>{ props.label }</button>
         </div>
     );
 };
