@@ -11,7 +11,7 @@ function App() {
   return (
     <div className= 'pageFormat'>
         <Header />
-        <CharlesCantinTarifs />
+        <CharlesCantinContact />
         <Footer />
     </div>
   );

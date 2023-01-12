@@ -8,34 +8,40 @@ const CharlesCantinContact = () => {
     <div className="pageFormat">
       <SmallCharlesCantinLogo />
       <TitleBar title="Contact" />
-      <FormField
-        method="post"
-        action="#"
-        type="text"
-        id="FirstName"
-        name="Votre Nom"
-      />
-      <FormField
-        method="post"
-        action="#"
-        type="text"
-        id="LastName"
-        name="Votre Prénom"
-      />
-      <FormField
-        method="post"
-        action="#"
-        type="mail"
-        id="Mail"
-        name="Votre E-mail"
-      />
-      <FormField
-        method="post"
-        action="#"
-        type="text"
-        id="Comments"
-        name="Vos commentaires"
-      />
+      <div className = "contactStyle">
+        <FormField
+          method="post"
+          action="#"
+          type="text"
+          id="FirstName"
+          name="Votre Nom"
+          className2="formStyle"
+        />
+        <FormField
+          method="post"
+          action="#"
+          type="text"
+          id="LastName"
+          name="Votre Prénom"
+          className2="formStyle"
+        />
+        <FormField
+          method="post"
+          action="#"
+          type="mail"
+          id="Mail"
+          name="Votre E-mail"
+          className2="formStyle"
+        />
+        <FormField
+          method="post"
+          action="#"
+          type="text"
+          id="Comments"
+          name="Vos commentaires"
+          className2="formStyle"
+        />
+      </div>
     </div>
   );
 };
