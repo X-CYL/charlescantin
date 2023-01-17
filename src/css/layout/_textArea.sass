@@ -1,0 +1,39 @@
+.formStyle2
+    height: 80px
+    
+    textarea
+        height: 160px
+        width: 480px
+        margin-top:10px
+        background-color: $secondary-color
+        border: solid 1.5px black
+        font-size: $contact-font-size
+        font-family: $mona-novo
+        @media (max-width: $small-screen-contact)
+            height: 160px
+            width: 300px
+            background-color: $secondary-color
+            margin-left: 15px
+            margin-right: 18px
+
+.container-area-field
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: space-between
+    height: 200px
+    max-width: 780px
+    @media (max-width: $small-screen)
+        display: flex
+        flex-direction: column
+        flex-wrap: wrap
+        justify-content: space-between
+        height: 200px
+        max-width: 780px
+
+    div
+        font-size: 1.6rem
+        @media (max-width: $small-screen)
+            font-size: 1.2rem
+            
+        

@@ -1,29 +1,27 @@
-.contactStyle
-    display: flex
-    flex-direction: column
-    flex-wrap: wrap
-    margin-top: 40px
-    margin-left: 50px
-    color: $secondary-color
-    @media (max-width: $small-screen)
-        margin-left: 25px
+
 
 .formStyle
     height: 80px
     
     input
         height: 40px
-        width: 500px
+        width: 480px
         background-color: $secondary-color
         margin-left: 40px
+        font-size: $contact-font-size
+        font-family: $mona-novo
         @media (max-width: $small-screen)
             height: 30px
             width: 300px
             background-color: $secondary-color
             margin-left: 15px
+            margin-right: 15px
               
-            
-
+.container-formField
+    @include flex-container-row
+    
+    
+    
 
 
 
