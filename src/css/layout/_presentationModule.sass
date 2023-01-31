@@ -2,7 +2,14 @@
 .container-general-module
     @include flex-container-column 
     justify-content: center 
-    margin-left: 50px
+    padding-left: 150px
+    margin: auto
+    @media(max-width: $small-screen)
+        @include flex-container-column 
+        justify-content: center 
+        padding-left: 10px
+        margin: auto
+
     
 .container-presentation-module
     display: flex
@@ -12,6 +19,10 @@
     margin-top: 25px
     align-items: center 
     font-family: $mona-novo 
+    @media(max-width: 750px)
+        margin-right: 120px
+    @media(max-width: $small-screen)
+        margin-right: 16px
     div
         text-align: center
         
