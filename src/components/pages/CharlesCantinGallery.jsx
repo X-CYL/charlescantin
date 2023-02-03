@@ -8,32 +8,22 @@ const CharlesCantinGallery = () => {
   return (
     <>
       <div className="pageFormat">
-          <SmallCharlesCantinLogo />
-          <TitleBar
-          title="Galerie"
-           />
-          <div className="container-flex-row">
-            <div>
-              <DisplayGalery
-                src= "/pictures/Famille/Fratrie.jpg"
-                alt="famille dans un parc arborré"
-                figcaption="dans le parc"
-              />
-            </div>
-          <div>
-            <DisplayGalery
-              src="/pictures/Famille/En_nage.jpg"
-              alt="canards en liberté"
-              figcaption="Canards libres"
-            />
-          </div>
-          <div>
-            <DisplayGalery
-              src="/pictures/Famille/Cygnes_aux_lentilles.jpg"
-              alt="canards sur rivière de lentilles"
-              figcaption="Sur les lentilles"
-            />
-          </div>
+        <SmallCharlesCantinLogo />
+        <TitleBar title="Galerie" />
+        <div className="container-flex-row">
+          {cantinPictures.map((item) => {
+            let formatedGallery = item.category
+            return (
+              <div>
+                <DisplayGalery
+                  categorie={item.category}
+                  src={item.pictures[0].picture}
+                  alt={item.pictures[0].description}
+                  figcaption={item.pictures[0].pictitle}
+                />
+              </div>
+            );
+          })}
         </div>
       </div>
     </>

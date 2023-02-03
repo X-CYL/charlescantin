@@ -5,6 +5,7 @@ import React from 'react';
 const DisplayGalery = (props) => {
     return (
         <div>
+            <h4> {props.categorie} </h4>
             <div className= 'displayGaleryFormat'>
                 <figure>
                     <img src = { props.src } alt= { props.alt }></img>

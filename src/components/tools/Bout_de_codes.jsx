@@ -72,4 +72,28 @@ const CharlesCantinTarifs = () => {
 
 //-----------------------------------------------------------------------
   
-  
+function MariagePage() {
+  return (
+    <div>
+      <div className="pageFormat">
+        <SmallCharlesCantinLogo />
+        <TitleBar title="Mariage" />
+      </div>
+      <div>
+        {cantinPictures.map((cantinPicture) =>
+          cantinPicture.map((item) => {
+            let expo= item
+            console.log(expo);
+            return (
+              <Mariage
+                src={item.picture}
+                alt={item.description}
+                h2={item.pictitle}
+              />
+            );
+          })
+        )}
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,31 @@
+.container-Expo
+    @include flex-container-center
+    margin-top: 80px
+    @media(max-width: 860px)
+        margin-top: 40px
+    @media (max-width: $small-screen)  
+        margin-top: 20px
+        margin-bottom: -80px
+.expo-Format
+    @include flex-container-center
+    height: 600px
+    width: 800px
+    @media(max-width: 860px)
+        height: 250px
+        width: 450px
+        
+        margin-bottom: 130px
+    @media (max-width: $small-screen)
+        height: 200px
+        width: 300px
+        
+    img
+        border: solid 15px #232122
+        border-radius: 10px
+        max-width: 100%
+        @media (max-width: $small-screen)
+            border: solid 7px #232122
+            border-radius: 6px
+            max-width: 100%
+        
+

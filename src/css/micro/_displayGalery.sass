@@ -1,11 +1,23 @@
 
+div h4
+    text-align: center
+    @media (max-width: 1117px)
+        text-align: center
+        margin-top: 30px
+    @media (max-width: $small-screen)
+        text-align: center
+        margin-top: 30px
+
 .displayGaleryFormat
     background-color: $primary-color
-    border-style: solid 
+    border-style: solid
     height: 120px
-    width: 200px
+    width: 180px
     margin-top: 1%
+    @media (max-width: $small-screen)
+        margin-top: 5px
 
+    
     figure, img
         height: 100%
 

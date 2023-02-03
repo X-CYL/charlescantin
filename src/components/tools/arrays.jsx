@@ -15,7 +15,7 @@ export let cantinPictures = [
         pictitle: "Par la main",
         picture: "./pictures/Mariage/Par_la_main.jpg",
         linkTo: "#",
-        description: "Gros plan sur main qui se tiennet avec bouquet",
+        description: "Gros plan sur main qui se tiennent avec bouquet",
         price: 270
       },
       {
@@ -68,7 +68,7 @@ export let cantinPictures = [
     ]
   },
   {
-    categeory: "Famille",
+    category: "Famille",
     pictures: [
       {
         pictitle: "Bulles dans le parc",
@@ -153,6 +153,7 @@ export let cantinPictures = [
       {
         pictitle: "Flamme intense",
         picture: "./pictures/Bapteme/Flamme_intense.jpg",
+        alt: "#",
         linkTo: "#",
         description: "Une femme allume un cierge au premier plan flou avec une bougie",
         price: 230
