@@ -1,15 +1,15 @@
 import React from "react";
 import SmallCharlesCantinLogo from "../layouts/SmallCharlesCantinLogo";
 import TitleBar from "../micro/TitleBar";
-import Mariage from "../micro/Mariage";
+import CategoryExpo from "../micro/CategoryExpo";
 import { cantinPictures } from "../tools/arrays";
 
 
 function MariagePage() {
-  const maCategorieMariageEnTableau = cantinPictures.filter(
+  const maCategorieEnTableau = cantinPictures.filter(
     (item) => item.category === "Mariage"
   );
-  const maCategorieMariage = maCategorieMariageEnTableau[0];
+  const maCategorie = maCategorieEnTableau[0];
 
   return (
     <div>
@@ -17,9 +17,9 @@ function MariagePage() {
         <SmallCharlesCantinLogo />
         <TitleBar title="Mariage" />
       </div>
-      <div className="container-mariage-page">
-        {maCategorieMariage.pictures.map((item) => (
-          <Mariage key={item.picture} src={item.picture} alt={item.description} h2={item.pictitle} />
+      <div>
+        {maCategorie.pictures.map((item) => (
+          <CategoryExpo key={item.picture} src={item.picture} alt={item.description} h2={item.pictitle} />
         ))}
       </div>
     </div>
