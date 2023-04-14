@@ -2,7 +2,6 @@ import React from "react";
 
 const PresentationModule = () => {
   return (
-    <>
       <div className = "container-general-module">
         <div className="container-presentation-module">
           <h2>Charles Cantin</h2>
@@ -23,7 +22,6 @@ const PresentationModule = () => {
           </div>
         </div>
       </div>
-    </>
   );
 };
 

@@ -13,20 +13,23 @@ import GrossessePage from "./components/pages/GrossessePage";
 import BaptemePage from "./components/pages/BaptemePage";
 import BebePage from "./components/pages/BebePage";
 import Error from "./components/tools/functions/ErrorPage";
+import Layout from "./components/layouts/Layout";
 
 function App() {
   return (
     <div className="pageFormat">
       <BrowserRouter>
         <Header />
-          <Routes>
+        <Routes>
+          <Route element={<Layout />}>
             <Route index element={<CharlesCantinHome />} />
             <Route path="/home" element={<CharlesCantinHome />} />
             <Route path="/galery" element={<CharlesCantinGallery />} />
             <Route path="/tarifs" element={<CharlesCantinTarifs />} />
             <Route path="/contact" element={<CharlesCantinContact />} />
             <Route path="*" element={<Error />} />
-          </Routes>
+          </Route>
+        </Routes>
         <Footer />
       </BrowserRouter>
     </div>

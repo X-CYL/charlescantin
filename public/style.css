@@ -475,7 +475,7 @@ div h4 {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  padding-left: 150px;
+  padding-left: 140px;
   margin: auto;
 }
 @media (max-width: 540px) {
@@ -513,14 +513,10 @@ div h4 {
 }
 
 .container-text-module {
-  height: 400px;
-  width: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  padding-left: 50px;
-  padding-right: 50px;
+  justify-content: center;
   margin-top: -3px;
 }
 .container-text-module div {
@@ -673,4 +669,10 @@ div h4 {
 }
 .expo-Format h2 {
   color: #455969;
+}
+
+.navigation ul li a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
 }/*# sourceMappingURL=style.css.map */

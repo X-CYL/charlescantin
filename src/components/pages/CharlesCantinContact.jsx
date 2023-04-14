@@ -3,13 +3,14 @@ import SmallCharlesCantinLogo from "../layouts/SmallCharlesCantinLogo";
 import TitleBar from "../micro/TitleBar";
 import FormModule from "../layouts/FormModule";
 import PresentationModule from "../layouts/PresentationModule";
+import DefaultButton from "../micro/DefaultButton";
 
 const CharlesCantinContact = () => {
   return (
     <div className="pageFormat">
       <SmallCharlesCantinLogo />
       <TitleBar title="Contact" />
-      <div className ="container-formField">
+      <div className="container-formField">
         <div>
           <FormModule />
         </div>
